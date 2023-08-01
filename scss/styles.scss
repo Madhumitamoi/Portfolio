@@ -572,6 +572,55 @@ footer {
 
 /*
     -------------------------------
+    ----- 13. Achievement Styles -----
+    -------------------------------
+*/
+
+#achievements {
+    padding: 50px 15px;
+    text-align: center;
+
+    h2 {
+        color: $heading;
+        margin-bottom: 50px;
+    }
+
+    .achievement {
+        max-width: 600px;
+        margin: 0 auto 30px auto;
+        padding: 15px;
+        border: 1px solid $border;
+        background: #fff;
+        text-align: left;
+
+        h3 {
+            font-weight: 500;
+            margin: 0 0 15px 0;
+            color: $heading;
+        }
+
+        h4 {
+            color: $text;
+            clear: both;
+            font-weight: 500;
+            margin: 0 0 15px 0;
+        }
+
+        p,
+        ul {
+            margin: 0 0 15px 0;
+            color: $text;
+            font-size: 0.9em;
+        }
+
+        ul {
+            padding: 0 0 0 15px;
+        }
+    }
+}
+
+/*
+    -------------------------------
     ----- 7. Education Styles -----
     -------------------------------
 */
